@@ -1,0 +1,22 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Caches et couverture des tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Bases locales et exports générés
+*.db
+*.db-*
+produits_export.csv
+
+# Configuration et secrets locaux
+.env
+.env.*
+
+# Éditeurs
+.vscode/
+.idea/
